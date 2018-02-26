@@ -1,0 +1,38 @@
+
+
+*******************************************************************************
+Wed May  3 20:42:30 2017
+
+
+FIT:    data read from 'VecinoCercano.dat'
+        format = z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x*x+b*x*c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.4112537191e+13   0.00e+00  9.73e+05    1.000000e+00   1.000000e+00   1.000000e+00
+  20 3.8002376904e-04  -2.54e-04  9.73e-08    6.611434e-08  -3.486834e-04   5.377682e-03
+
+After 20 iterations the fit converged.
+final sum of squares of residuals : 0.000380024
+rel. change during last iteration : -2.54435e-09
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00649807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.22249e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 6.61143e-08      +/- 3.22e-09     (4.87%)
+b               = -0.000348683     +/- 2.096e+10    (6.011e+15%)
+c               = 0.00537768       +/- 3.233e+11    (6.011e+15%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.096  1.000 
+c              -0.096  1.000  1.000 
